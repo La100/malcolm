@@ -106,7 +106,7 @@ export default function Home() {
       messageListRef.current?.scrollTo(0, messageListRef.current.scrollHeight);
     } catch (error) {
       setLoading(false);
-      setError('An error occurred while fetching the data. Please try again.');
+      setError('Coś zlagowało i nie bangla... lipa byku');
       console.log('error', error);
     }
   }
@@ -194,7 +194,7 @@ export default function Home() {
                     name="userInput"
                     placeholder={
                       loading
-                        ? 'Waiting for response...'
+                        ? 'Myślę i rozkminiam....'
                         : 'Kto jest szefem koła PZW ?'
                     }
                     value={query}
